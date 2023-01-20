@@ -44,9 +44,9 @@ The `-v` argument is optinal and prints out verbose messages in the console.<br/
 
 ## How it works
 
-FileHashChecker will verify files in the folder where the jar is being located.
-It will first locate all files in the `checkFile` put them in a list and sort them by file size for a higher quantity of verified files in a short time.
-After it will split the list into the `threads` number and put the rest in an extra thread.
+FileHashChecker will verify files in the folder where the jar is being located.<br/>
+It will first locate all files in the `checkFile` put them in a list and sort them by file size for a higher quantity of verified files in a short time.<br/>
+After it will split the list into the `threads` number and put the rest in an extra thread.<br/>
 Now the MainThread will post a status every second in the command prompt.
 
 
