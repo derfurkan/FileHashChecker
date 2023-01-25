@@ -24,7 +24,8 @@ The `-v` argument is optinal and prints out verbose messages in the console.<br/
 #### Parameters ####
 
 * `checkFile` This is the file that contains all hashes to verify the files. Can be generated with [FileHashGenerator](https://github.com/nichtfurkan/FileHashGenerator "FileHashGenerator")
-* `algorithm` The algorithm used to generate the file hashes. You can use `MD5, SHA1, SHA256, SHA512, ADLER32, CRC32`</p>
+* `algorithm` The algorithm used to generate the file hashes. 
+You can use `MD5, SHA1, SHA256, SHA512, ADLER32, CRC32`</p>
 > Where [`ADLER32`](https://en.wikipedia.org/wiki/Adler-32#Calculation "ADLER32") and [`MD5`](https://en.wikipedia.org/wiki/MD5#Algorithm "MD5") are checksum algorithms and therefor the fastest option.
 
 * `multiThreading` Boolean if multiple threads should be used for faster verification.
