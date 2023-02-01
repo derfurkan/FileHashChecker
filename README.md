@@ -1,4 +1,6 @@
 # 🗂️ FileHashChecker
+### 🔨 Java 17 was used to build this application.
+#
 
 FileHashChecker is a program that will verify contents of a folder by hash values given in a HashFile.
 It uses thread technology to get the maximum speed out of any system to verify contents as quickly as possible.
