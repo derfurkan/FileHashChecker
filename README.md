@@ -5,7 +5,7 @@ It uses thread technology to get the maximum speed out of any system to verify c
 
 ## How to run
 FileHashChecker must be run with a configuration file as first argument.<br/>
-It would look like this<br/><br/>
+The run command would look like this<br/><br/>
 `java -jar FileHashChecker.jar ConfigurationFile.json -v`<br/>
 The `-v` argument is optinal and prints out verbose messages in the console.<br/><br/>
 
