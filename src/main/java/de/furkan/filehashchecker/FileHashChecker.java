@@ -31,7 +31,7 @@ class Core {
     public Core(String[] args) {
         System.out.println("\n [FileHashChecker created by Furkan | Made in Germany]");
         if (args.length == 0) {
-            System.out.println("No config file provided!");
+            System.out.println(" No config file provided!");
             return;
         }
         verbose = args.length != 1 && args[1].equalsIgnoreCase("-v");
